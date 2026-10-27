@@ -17,7 +17,25 @@
      Embedded obrazec ima dva dela kode. PRVI del (script) prilepi
      namesto spodnje vrstice PRILEPI-SENDER-DEL-1.
      ===================================================================== -->
-<!-- PRILEPI-SENDER-DEL-1 -->
+<script>
+  (function (s, e, n, d, er) {
+    s['Sender'] = er;
+    s[er] = s[er] || function () {
+      (s[er].q = s[er].q || []).push(arguments)
+    }, s[er].l = 1 * new Date();
+    s[er].on = function(event, callback) {
+      s[er].listeners = s[er].listeners || {};
+      (s[er].listeners[event] = s[er].listeners[event] || []).push(callback);
+    };
+    var a = e.createElement(n),
+        m = e.getElementsByTagName(n)[0];
+    a.async = 1;
+    a.src = d;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+  sender('a09e1ea4272052')
+</script>
+
 
 <style>
   :root {
@@ -102,7 +120,7 @@
              Zamenjaj CELOTNO spodnjo vrstico <p class="placeholder">…</p>
              z drugim delom kode iz Senderja (tistim, ki prikaže obrazec).
              ================================================================= -->
-        <p class="placeholder">Tukaj bo obrazec za prijavo (koda iz Senderja).</p>
+        <div style="text-align: left" class="sender-form-field" data-sender-form-id="dyPKXW"></div>
         <p class="micro">Brezplačno. Odjava z enim klikom. Tvojega naslova ne prodajamo nikomur. <a href="zasebnost.html">Politika zasebnosti</a></p>
       </div>
     </div>
@@ -153,7 +171,9 @@
   <section>
     <div class="wrap">
       <h2>Kdo piše</h2>
-      <p>Sem [TVOJE IME]. Nisem borzni posrednik in ne prodajam finančnih produktov. Vlagati se učim in sproti razlagam, kar se naučim, tako, kot bi to razložil prijatelju. Osnutke mi pomaga pripraviti umetna inteligenca, vsako izdajo pa pred pošiljanjem preberem in preverim sam. Viri so vedno navedeni.</p>
+      <p>Sem Nejc in tudi sam se učim vlaganja. Svoje znanje in nova spoznanja delim v preprostem jeziku, tako kot bi jih razložil prijatelju.
+Nisem borzni posrednik in ne prodajam finančnih produktov. Pri pripravi osnutkov si pomagam z umetno inteligenco, vendar vsako izdajo pred pošiljanjem osebno preberem in preverim. Pri vsaki izdaji navedem tudi uporabljene vire, da lahko informacije preveriš še sam.
+</p>
     </div>
   </section>
 
