@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mali Vlagatelj – vlaganje, razloženo po domače</title>
+<meta name="description" content="Brezplačno tedensko glasilo za začetnike: ena novica s trga, preprosto pojasnilo in en majhen korak. Vsak petek, v treh minutah.">
+<meta property="og:title" content="Mali Vlagatelj – vlaganje, razloženo po domače">
+<meta property="og:description" content="Brezplačno tedensko glasilo za začetnike. Vsak petek, v treh minutah.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://malivlagatelj.si/">
+<meta name="theme-color" content="#0f766e">
+
+<!-- =====================================================================
+     UREDI 1 od 3 — SENDER, PRVI DEL KODE
+     V Senderju: Forms → tvoj obrazec → Publishing settings.
+     Embedded obrazec ima dva dela kode. PRVI del (script) prilepi
+     namesto spodnje vrstice PRILEPI-SENDER-DEL-1.
+     ===================================================================== -->
+<!-- PRILEPI-SENDER-DEL-1 -->
+
+<style>
+  :root {
+    --bg: #fbfaf7;
+    --ink: #1f2937;
+    --muted: #4b5563;
+    --accent: #0f766e;
+    --accent-ink: #ffffff;
+    --soft: #e6f4f1;
+    --line: #e5e7eb;
+    --warm: #b45309;
+    --warm-soft: #fef3c7;
+    --radius: 14px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  a { color: var(--accent); }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+  header.top { padding: 20px 0; }
+  .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; font-size: 20px; color: var(--ink); text-decoration: none; }
+  .coin { width: 28px; height: 28px; border-radius: 50%; background: var(--accent); box-shadow: inset 0 0 0 5px #5eead4; }
+  .hero { padding: 24px 0 8px; }
+  h1 { font-size: clamp(30px, 6vw, 46px); line-height: 1.15; margin: 0 0 16px; letter-spacing: -0.02em; }
+  .lead { font-size: 20px; color: var(--muted); margin: 0 0 24px; }
+  .signup { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; box-shadow: 0 6px 24px rgba(15, 118, 110, 0.08); }
+  .placeholder { margin: 0; padding: 24px; border: 2px dashed #94a3b8; border-radius: 10px; text-align: center; color: var(--muted); }
+  .micro { font-size: 15px; color: var(--muted); margin: 12px 0 0; }
+  section { padding: 40px 0; }
+  h2 { font-size: clamp(24px, 4.5vw, 32px); line-height: 1.25; margin: 0 0 16px; }
+  .cards { display: grid; gap: 14px; }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; }
+  .card h3 { margin: 0 0 6px; font-size: 19px; color: var(--accent); }
+  .card p { margin: 0; color: var(--muted); }
+  .founding { background: var(--warm-soft); border: 1px solid #fcd34d; border-radius: var(--radius); padding: 24px; }
+  .badge { display: inline-block; background: var(--warm); color: #fff; font-size: 14px; font-weight: 700; padding: 4px 12px; border-radius: 999px; margin-bottom: 12px; }
+  .terms { background: #fff; border-radius: 10px; padding: 16px 18px; font-size: 16px; margin-top: 16px; }
+  .terms h3 { margin: 0 0 8px; font-size: 17px; }
+  .terms ul { margin: 0; padding-left: 20px; }
+  .terms li { margin-bottom: 6px; }
+  .not { display: grid; gap: 10px; padding: 0; margin: 0; list-style: none; }
+  .not li { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; }
+  details { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 14px 18px; margin-bottom: 10px; }
+  summary { cursor: pointer; font-weight: 600; }
+  details p { margin: 10px 0 0; color: var(--muted); }
+  .cta { text-align: center; background: var(--soft); border-radius: var(--radius); padding: 32px 20px; }
+  .cta h2 { margin-bottom: 8px; }
+  .button { display: inline-block; background: var(--accent); color: var(--accent-ink); text-decoration: none; font-weight: 700; padding: 14px 26px; border-radius: 999px; margin-top: 8px; }
+  .button:focus-visible, a:focus-visible, summary:focus-visible { outline: 3px solid #f59e0b; outline-offset: 3px; }
+  footer { border-top: 1px solid var(--line); padding: 24px 0 40px; font-size: 15px; color: var(--muted); }
+  footer p { margin: 0 0 6px; }
+  @media (min-width: 640px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+  }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#"><span class="coin" aria-hidden="true"></span>Mali Vlagatelj</a>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="wrap">
+      <h1>Vlaganje, razloženo po domače. Vsak petek, v treh minutah.</h1>
+      <p class="lead">Mali Vlagatelj je brezplačno tedensko glasilo za začetnike. Ena novica s trga, preprosto pojasnilo in en majhen korak, ki ga narediš v 10 minutah. Brez žargona, brez »vročih nasvetov«.</p>
+
+      <div class="signup" id="prijava">
+        <!-- =================================================================
+             UREDI 2 od 3 — SENDER, DRUGI DEL KODE
+             Zamenjaj CELOTNO spodnjo vrstico <p class="placeholder">…</p>
+             z drugim delom kode iz Senderja (tistim, ki prikaže obrazec).
+             ================================================================= -->
+        <p class="placeholder">Tukaj bo obrazec za prijavo (koda iz Senderja).</p>
+        <p class="micro">Brezplačno. Odjava z enim klikom. Tvojega naslova ne prodajamo nikomur. <a href="zasebnost.html">Politika zasebnosti</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Kaj dobiš vsak petek</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Kaj se dogaja?</h3>
+          <p>Najpomembnejša novica tedna v dveh stavkih.</p>
+        </div>
+        <div class="card">
+          <h3>Zakaj te zanima?</h3>
+          <p>Kaj to pomeni za tvoj denar, varčevanje ali prvo naložbo.</p>
+        </div>
+        <div class="card">
+          <h3>Korak naprej</h3>
+          <p>Ena konkretna stvar za 10 minut. Na primer: preveri, koliko te tvoj sklad stane na leto.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Po 22. 12. 2026 ob 23.59 ta razdelek izbriši ali ga zamenjaj z besedilom,
+       da so prijave za ustanovne člane zaključene. Roka ne podaljšuj. -->
+  <section>
+    <div class="wrap">
+      <div class="founding">
+        <span class="badge">Do 22. decembra 2026</span>
+        <h2>Ustanovni člani</h2>
+        <p>Kdor se prijavi do 22. 12. 2026, postane ustanovni član. To pomeni, da so vse morebitne prihodnje plačljive vsebine glasila zate brezplačne.</p>
+        <div class="terms">
+          <h3>Pogoji, brez drobnega tiska</h3>
+          <ul>
+            <li>Ugodnost velja, dokler glasilo izhaja in dokler je tvoja prijava aktivna.</li>
+            <li>Velja za tedensko glasilo in njegove morebitne plačljive dele. Ne velja za ločene izdelke, kot so tečaji ali e-knjige.</li>
+            <li>Če se odjaviš in se kasneje vrneš, veljajo takrat veljavni pogoji.</li>
+            <li>Prijave za ustanovne člane se zaključijo 22. 12. 2026 ob 23.59. Roka ne bomo podaljšali.</li>
+          </ul>
+        </div>
+        <p style="margin: 16px 0 0;">Zakaj rok? Ker želimo prve bralce nagraditi za zaupanje. In ker rok, ki se nikoli ne izteče, ni rok.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Kdo piše</h2>
+      <p>Sem [TVOJE IME]. Nisem borzni posrednik in ne prodajam finančnih produktov. Vlagati se učim in sproti razlagam, kar se naučim, tako, kot bi to razložil prijatelju. Osnutke mi pomaga pripraviti umetna inteligenca, vsako izdajo pa pred pošiljanjem preberem in preverim sam. Viri so vedno navedeni.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Kaj Mali Vlagatelj ni</h2>
+      <ul class="not">
+        <li>Ni nasvet, kaj kupiti.</li>
+        <li>Ni napoved, kam bo šel tečaj.</li>
+        <li>Ni shema za hiter zaslužek. Če ti kdo obljublja zagotovljen donos, je to opozorilni znak, tudi če uporablja znan obraz.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Pogosta vprašanja</h2>
+      <details>
+        <summary>Je res brezplačno?</summary>
+        <p>Da. Tedensko glasilo je brezplačno. Ustanovni člani bodo brezplačno dobili tudi vse morebitne prihodnje plačljive dodatke.</p>
+      </details>
+      <details>
+        <summary>Kako pogosto pišete?</summary>
+        <p>Enkrat na teden, v petek zjutraj.</p>
+      </details>
+      <details>
+        <summary>Ali dajete finančne nasvete?</summary>
+        <p>Ne. Razlagamo pojme in novice. Odločitve o naložbah so tvoje; za osebni nasvet se obrni na borznega posrednika z dovoljenjem ATVP.</p>
+      </details>
+      <details>
+        <summary>Kaj se zgodi z mojim e-naslovom?</summary>
+        <p>Uporabimo ga samo za pošiljanje glasila. Odjaviš se z enim klikom v vsakem sporočilu. Več v <a href="zasebnost.html">politiki zasebnosti</a>.</p>
+      </details>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="cta">
+        <h2>Prvo glasilo dobiš v petek.</h2>
+        <a class="button" href="#prijava">Želim glasilo</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Mali Vlagatelj · <a href="mailto:info@malivlagatelj.si">info@malivlagatelj.si</a> · <a href="zasebnost.html">Politika zasebnosti</a></p>
+    <p>Vsebina je informativne in izobraževalne narave. To ni finančni nasvet.</p>
+  </div>
+</footer>
+
+</body>
+</html>
